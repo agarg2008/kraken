@@ -278,7 +278,7 @@ void classify_sequence(DNASequence &dna, ostringstream &koss,
       return;
     koss << "U\t";
   }
-  koss << dna.id << "\t" << call << "\t" << dna.seq.size() << "\t";
+  koss << dna.id << "\t" << call << "\t" << dna.seq.size() << "\t" << dna.seq << "\t";
 
   if (Quick_mode) {
     koss << "Q:" << hits;

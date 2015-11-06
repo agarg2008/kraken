@@ -1,4 +1,4 @@
-CXX = g++
+CXX = g++-5
 CXXFLAGS = -Wall -fopenmp -O3
 PROGS = db_sort set_lcas classify make_seqid_to_taxid_map db_shrink
 
